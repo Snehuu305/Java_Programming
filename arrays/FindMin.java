@@ -21,26 +21,3 @@ while(low < high)
    return nums[low];
  }
 }
-
-class FindMin
-{
-    public static void main(String A[])
-    {
-        Solution sol = new Solution();
- 
-        int[] nums1 = {3, 4, 5, 1, 2};
-        System.out.println("Minimum in [3,4,5,1,2] = " + sol.minNum(nums1));
- 
-        int[] nums2 = {4, 5, 6, 7, 0, 1, 2};
-        System.out.println("Minimum in [4,5,6,7,0,1,2] = " + sol.minNum(nums2));
- 
-        int[] nums3 = {11, 13, 15, 17};
-        System.out.println("Minimum in [11,13,15,17] = " + sol.minNum(nums3));
- 
-        int[] nums4 = {1};
-        System.out.println("Minimum in [1] = " + sol.minNum(nums4));
- 
-        int[] nums5 = {2, 1};
-        System.out.println("Minimum in [2,1] = " + sol.minNum(nums5));
-    }
-}
