@@ -1,4 +1,4 @@
-import java.itil.Scanner;
+import java.util.Scanner;
 
 class Rotate {
 
