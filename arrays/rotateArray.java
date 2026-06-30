@@ -1,22 +1,22 @@
-import java.util.Scanner;
+class Solution {
+    public void rotate(int[] arr, int k) {
+        if (arr == null || arr.length == 0 || k == 0) return;
+        
+        int n = arr.length;
+        k = k % n;
 
-class Rotate {
+        reverse(arr, 0, n - 1);      // reverse whole array
+        reverse(arr, 0, k - 1);      // reverse first k elements
+        reverse(arr, k, n - 1);      // reverse remaining
+    }
 
-    public void rotate(int arr[], int numberOfRotations) {
-       int lengthOfArray = arr.length;
-       numberOfRotations = numberOfRotations % lengthOfArray;
-       int rotatedArr[] = new int[lengthOfArray];     
-
-        for(int i = 0; i < numberOfRotations; i++) {
-            rotatedArr[i] = arr[lengthOfArray - numberOfRotations + i];
-        }
-
-        for(int i = numberOfRotations; i < lengthOfArray; i++) {
-            rotatedArr[i] = arr[i - numberOfRotations];
-        }
-
-        for(int i = 0; i < lengthOfArray; i++) {
-            System.out.print(rotatedArr[i] + " ");
+    private void reverse(int[] arr, int left, int right) {
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
     }
 }
