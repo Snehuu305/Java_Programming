@@ -15,7 +15,9 @@ class MaxArea
 
            if(height[left] < height[right]){
     left++;
-} else {
+}
+           else 
+           {
     right--;
 }
        }
