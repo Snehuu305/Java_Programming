@@ -1,19 +1,16 @@
 import java.util.Scanner;
 
-class Employee
-{
+class Employee{
     public String name;
     public int salary;
 
-   public Employee(String Name, int Salary)
-    {
+   public Employee(String Name, int Salary) {
           this.name = Name;
           this.salary = Salary;    
     }
 }
 
-class Manager extends Employee
-{
+class Manager extends Employee{
     public int bonus = 0;
 //    public Manager()
 //    {
@@ -21,18 +18,15 @@ class Manager extends Employee
 //        super(salary);
 //    }
 
-   public void Bonus()
-   {
-      if(super.salary > 50000)
-      {
+   public void Bonus() {
+      if(super.salary > 50000) {
         bonus = 5000;
         salary = bonus + salary;
         System.out.println("Approved bonus is " + bonus + " and total Salary is " + salary);
               System.out.println();
       }
       
-      else
-        {
+      else {
             bonus = 2000;
             salary = bonus + salary;
            System.out.println("Approved bonus is " + bonus + " and total Salary is " + salary);
