@@ -10,8 +10,7 @@ class Solution {
         reverse(arr, k, n - 1);      // reverse remaining
     }
 
-    private void reverse(int[] arr, int left, int right) 
-    {
+    private void reverse(int[] arr, int left, int right) {
         while (left < right) 
         {
             int temp = arr[left];
