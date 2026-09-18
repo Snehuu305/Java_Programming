@@ -1,6 +1,6 @@
 class Solution
 {
-    public int minNum(int nums[]){
+    public int minNum(int nums[]) {
     int low = 0;
 int high = nums.length - 1;
 
