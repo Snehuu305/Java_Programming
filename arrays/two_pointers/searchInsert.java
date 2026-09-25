@@ -1,8 +1,6 @@
 //leetcode 35. Search Insert Position
-class Solutions
-{
-    public int searchInsert(int nums[], int target)
-    {
+class Solution {
+    public int searchInsert(int nums[], int target) {
         int i = 0;
 
         while(i < nums.length)
