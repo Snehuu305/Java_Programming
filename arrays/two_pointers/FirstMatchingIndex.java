@@ -1,7 +1,5 @@
-class Solution 
-{
-    public int firstMatchingIndex(String s) 
-    {
+class Solution {
+    public int firstMatchingIndex(String s)  {
         
         int i = 0;
         int k = s.length()-i-1;
