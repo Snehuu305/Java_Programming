@@ -1,7 +1,5 @@
-class CountBinarySubstring
-{
-    public int countBinarySubstrings(String s)
-    {
+class CountBinarySubstring {
+    public int countBinarySubstrings(String s)  {
         int totalCount = 0;
         int currentRunLength = 1;
         int previousRunLength = 0;
