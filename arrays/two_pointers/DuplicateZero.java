@@ -1,6 +1,5 @@
 class DuplicateZero {
-    public void duplicateZero(int[] arr)
-    {
+    public void duplicateZero(int[] arr) {
          int i = 0;
           int j = 0;
       int[] num = new int[arr.length];
