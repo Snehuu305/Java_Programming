@@ -1,5 +1,4 @@
-class DuplicateZero
-{
+class DuplicateZero {
     public void duplicateZero(int[] arr)
     {
          int i = 0;
