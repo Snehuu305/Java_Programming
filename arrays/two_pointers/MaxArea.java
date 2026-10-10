@@ -10,11 +10,10 @@ class MaxArea {
 
            maxArea = Math.max( maxArea, area);
 
-           if(height[left] < height[right]){
-    left++;
+           if(height[left] < height[right]) {
+           left++;
 }
-           else 
-           {
+           else    {
     right--;
 }
        }
