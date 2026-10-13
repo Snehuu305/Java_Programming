@@ -4,8 +4,7 @@ class DuplicateZero {
           int j = 0;
       int[] num = new int[arr.length];
 
-          while(i < arr.length)
-        {
+          while(i < arr.length) {
             if(arr[j] !=0)
             {
                num[i] = arr[j];
