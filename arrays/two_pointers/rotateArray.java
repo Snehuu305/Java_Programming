@@ -1,5 +1,7 @@
-class Solution {
-    public void rotate(int[] arr, int k) {
+class Solution
+    {
+    public void rotate(int[] arr, int k)
+        {
         if (arr == null || arr.length == 0 || k == 0) return;
         
         int n = arr.length;
