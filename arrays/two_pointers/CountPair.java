@@ -2,7 +2,8 @@ import java.util.Collections;
 
 class Solution
     {
-    public int countPairs(List<Integer> nums, int target) {
+    public int countPairs(List<Integer> nums, int target)
+        {
 
         Collections.sort(nums);
 
