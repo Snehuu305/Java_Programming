@@ -6,9 +6,11 @@ class Solution
         int cost = prices[0] + prices[1]; // step 2: cost of cheapest pair
         
         if (cost <= money) 
-{              // step 3: check affordability
+       {              // step 3: check affordability
             return money - cost;
-        } else {
+        } 
+        else
+        {
             return money;
         }
     }
