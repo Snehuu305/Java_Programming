@@ -11,7 +11,8 @@ class Employee
     }
 }
 
-class Manager extends Employee{
+class Manager extends Employee
+{
     public int bonus = 0;
 //    public Manager()
 //    {
