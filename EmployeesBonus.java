@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class Employee {
+class Employee 
+{
     public String name;
     public int salary;
 
