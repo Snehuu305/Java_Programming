@@ -20,7 +20,8 @@ class Manager extends Employee
 //        super(salary);
 //    }
 
-   public void Bonus() {
+   public void Bonus() 
+    {
       if(super.salary > 50000) {
         bonus = 5000;
         salary = bonus + salary;
